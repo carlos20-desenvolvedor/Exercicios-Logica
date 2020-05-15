@@ -12,6 +12,7 @@ namespace ExercicioLogica
         {
             var central = new CentralDeExercicios(new Dictionary<string, Action>() {
                 {"Verificar se o número é crescente ou decrescente", NumeroCrescenteDecrescente.Executar},
+                {"Cálculo de área,Perimetro e Diagonal ", CalculoArea.Executar},
             });
 
             central.SelecionarEExecutar();
